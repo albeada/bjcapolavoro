@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Black Jack</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-green-800 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-6 rounded-xl w-96 text-center space-y-4">
+      <h1 class="text-2xl font-bold">Black Jack</h1>
+      <div id="deck-count"></div>
+      <div id="dealer-move">
+        <p class="mt-2">Dealer Move</p>
+        <p id="dealer-cards"></p>
+        <p id="dealer-cards-sum"></p>
+        <p id="message-dealer"></p>
+      </div>
+      <div id="player-move">
+        <p>Player Move</p>
+        <p id="player-cards"></p>
+        <p id="player-cards-sum"></p>
+        <p id="message-player"></p>
+        <button id="deal" class="bg-blue-800">Distribuisci Carte</button>
+        <button id="split" class="bg-green-800">dividi</button>
+        <button id="hit" class="bg-green-800">carta</button>
+        <button id="stay" class="bg-red-800">stai</button>
+        <button id="double" class="bg-yellow-800">raddoppia</button></br>
+		</div>
+		<div id="fisch">
+		<button id="1" class="bg-purple-800">1</button>
+		<button id="5" class="bg-orange-800">5</button>
+		<button id="10" class="bg-green-800">10</button>
+		<button id="25" class="bg-red-800">25</button>
+		<button id="50" class="bg-blue-800">50</button>
+		<button id="100" class="bg-yellow-800">100</button></br>
+        <p id="saldo" ></p>
+        <p id="puntata"></p>
+      </div>
+    </div>
+    <script src="bj.js"></script>
+  </body>
+</html>
